@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/styles/style.css">
+        <script src="/scripts/cadastroAeronave.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <section class="cadastro">
+            <nav>
+                <a href="/index.html"><img src="/assets/images/logo.png"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href=""> Comprar Passagens </a></li>
+                        <li><a href=""> Viagens </a></li>
+                        <li><a href=""> Contato </a></li>
+                        <li><a href="/adm/"> administrativo </a></li>
+                        <li><a href=""> Reservas </a></li>
+                    </ul>
+                </div>
+            </nav>
+            <h1> Cadastre a Aeronave! </h1> 
+            <p class="aviso"> certifique-se da existência dos dados complementares</p>
+            <div class="caixa-maior">
+                <form class="form">
+                <p>
+                    <label for="idModelo">ID do Modelo:</label>
+                    <input type="number" id="idModelo" name="idModelo">
+                </p>
+                <p>
+                    <label for="anoFabricacao">Ano de Fabricação:</label>
+                    <input type="number" id="anoFabricacao" name="anoFabricacao">
+                </p>
+                <p>
+                    <button 
+                    type="button" 
+                    onclick="cadastrarAeronave();"
+                    id="btnCadastrar"
+                    name="btnCadastrar">Cadastrar</button>
+                    <button type="reset">Limpar</button>
+                </p>
+                    <p id="status" class="statusError"></p>
+
+                </form>
+            </div>  
+        </section>
+    </section>
+</body>
+</html>

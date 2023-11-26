@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.text-box{
+    width:90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 42px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.primeiro-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.primeiro-btn:hover{
+    border: 1px solid #db36f4;
+    background: #db36f4;
+    transition: 1.5s;
+}
+
+/* Segunda Parte */
+.adm-options{
+    display: flex;
+    flex-direction: row;
+}
+.promoção{
+    width: 80%;
+    margin: auto;
+    text-align: center; /* alinhar o texto para o meio*/
+    padding-top: 50px; /* joga ele mais para baixo */
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: #777;
+    font-size: 14px; /* tamanho da fonte */
+    font-weight: 300; /* grossura da letra */
+    line-height: 30px; /* controla o espaçamento entre as linhas de um texto */ 
+    padding: 10px;
+}
+
+.tres-cidades{
+    margin-top: 5%;
+    display: flex;  /*isso aqui diminuiu a imagem e jogou ela mais para a esquerda */
+    justify-content: space-between;
+}
+
+.cidades{
+    flex-basis: 32%;
+    border-radius: 10px; 
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cidades img{
+    width: 100%;
+    
+}
+
+
+
+.comprar-passagem{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(9, 0, 77, 0.65),rgba(9, 0, 77, 0.65)), url(/assets/images/background-rj.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+
+}
+
+.comprar-passagem h1{
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    font-size: 50px;
+}
+
+.cadastro{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(9, 0, 77, 0.65),rgba(9, 0, 77, 0.65)), url(/assets/images/background-rj.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+
+}
+.cadastro h1{
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    font-size: 50px;
+}
+.aviso{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.comprar-passagem p{
+    text-align: center;
+    font-size: 20px;
+}
+.btnCenter{
+    padding: 4px;
+    cursor: pointer;
+    background-color:gray;
+}
+.btnCenter:hover {
+    background-color:rgb(84, 84, 84);
+    color: white;
+    cursor: pointer;
+  }
+
+/* Ajuste as margens conforme necessário para obter o espaçamento desejado */
+

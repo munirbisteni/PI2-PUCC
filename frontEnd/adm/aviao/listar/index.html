@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/scripts/listarAeronave.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <section class="cadastro">
+            <nav>
+                <a href="/index.html"><img src="/assets/images/logo.png"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href=""> Comprar Passagens </a></li>
+                        <li><a href=""> Viagens </a></li>
+                        <li><a href=""> Contato </a></li>
+                        <li><a href="/adm/"> administrativo </a></li>
+                        <li><a href=""> Reservas </a></li>
+                    </ul>
+                </div>
+            </nav>
+            <h1> Lista de Aeronave! </h1> 
+            <p class="aviso"> Sistema administrativo</p>
+            <div class="caixaListagem">
+                <table id="tblAeronaves" border="0" cellspacing="5" cellpadding="10">
+                <thead>
+                    <tr>
+                    <th width="5%" class="centerText">id Aeronave</th>
+                    <th width="5%" class="centerText">id Modelo</th>
+                    <th width="20%" class="centerText">Ano Fabricacao</th>
+                    <th width="25%" class="centerText">Quantidade de Assentos</th>
+                    </tr>
+                </thead>
+                <tbody id="dados-aeronave"></tbody>
+                </table>
+            </div>  
+        </section>
+    </section>
+</body>
+    <script>exibirAeronaves()</script>
+</html>

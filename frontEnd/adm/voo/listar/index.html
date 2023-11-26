@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/scripts/listarVoo.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <section class="cadastro">
+            <nav>
+                <a href="/index.html"><img src="/assets/images/logo.png"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href=""> Comprar Passagens </a></li>
+                        <li><a href=""> Viagens </a></li>
+                        <li><a href=""> Contato </a></li>
+                        <li><a href="/adm/"> administrativo </a></li>
+                        <li><a href=""> Reservas </a></li>
+                    </ul>
+                </div>
+            </nav>
+            <h1> Lista de Voos! </h1> 
+            <p class="aviso"> Sistema administrativo</p>
+            <div class="caixaListagem">
+                <table id="tblVoo" border="0" cellspacing="5" cellpadding="10">
+                <thead>
+                    <tr>
+                    <th width="10%" class="centerText">ID do Voo</th>
+                    <th width="10%" class="leftText">ID do Aviao</th>
+                    <th width="10%" class="leftText">ID do Trecho</th>
+                    <th width="20%" class="leftText">Previsao Saida</th>
+                    <th width="20%" class="leftText">Previsao Chegada</th>
+                    <th width="20%" class="leftText">Preço passagem</th>
+                    </tr>
+                </thead>
+                <tbody id="dados-voo"></tbody>
+                </table>
+            </div>  
+        </section>
+    </section>
+</body>
+    <script>      exibirVoos()</script>
+</html>

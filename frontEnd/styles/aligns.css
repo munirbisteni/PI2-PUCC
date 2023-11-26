@@ -1,0 +1,19 @@
+.leftText {
+    text-align: left;
+  }
+  .centerText {
+    text-align: center;
+  }
+  .rightText {
+    text-align: right;
+  }
+  .oddRow {
+    background-color: #f3f3f3;
+  }
+  .evenRow {
+    background-color: #fafafa;
+  }
+  #tblAeronaves {
+    padding: 0;
+    width: 80%;
+  }

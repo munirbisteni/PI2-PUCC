@@ -1,0 +1,28 @@
+.caixaListagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: auto;
+    background: #eeeeee;
+    opacity: 0.8; 
+    margin: 0 auto; /* Isso centraliza horizontalmente a caixa */ /* Centraliza horizontalmente */
+    text-align: center; /* Isso centraliza o conteúdo dentro da caixa */
+    position: relative; /* Permite posicionamento absoluto dos filhos(o caixa maior é o pai dos forms) */ 
+}
+thead th {
+    border-bottom: 3px solid #3c3c3c;
+  }
+  tbody tr:hover {
+    background-color: #cce3fd;
+  }
+
+.large{
+  width: 30em;
+  height: 25em;
+}
+
+.larger{
+  width: 30em;
+  height: 35em;
+}

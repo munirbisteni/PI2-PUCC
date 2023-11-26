@@ -1,0 +1,15 @@
+#info h1{
+    text-align: center;
+    color: red;
+}
+
+#info h2{
+    text-align: center;
+    color: blue;
+}
+
+#rows div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;    
+}

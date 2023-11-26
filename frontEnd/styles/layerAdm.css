@@ -1,0 +1,66 @@
+.layerAdm{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+.hoverOption{
+    display: none;
+}
+
+.layerAdm:hover h3{
+    display: none;
+}
+
+.layerAdm:hover .hoverOption{
+    display: flex;
+    margin: auto 0;
+}
+.hOpt:hover{
+    background: rgba(9, 0, 77, 0.65);
+    transition: 0.5s;
+
+}
+.hoverOption{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.hOpt{
+    width: 100%;
+    height: 100%;
+    padding-top: 40%;
+}
+.direction{
+    color: #fff;          /*aqui eu consigo mudar a cor dos links localizados no <nav> <ul> <li> <a> , posso mexer outras coisas como tamanho da fonte etc */                    
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.direction::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #db36f4;
+    display: block;
+    margin: auto; 
+    transition: 0.5s;
+}
+.cadastrar:hover::after{
+    width: 70%;  
+}   
+.listar:hover::after{
+    width: 30%;
+}
+.layerAdm h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    
+}

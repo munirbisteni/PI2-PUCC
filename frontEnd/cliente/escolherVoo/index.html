@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/scripts/clientModule/selectVoo.js"></script>
+    <link rel="stylesheet" href="../../styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav style="background-color: blue;">
+        <a href="index.html"><img src="assets/images/logo.png"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href=""> Comprar Passagens </a></li>
+                <li><a href=""> Viagens </a></li>
+                <li><a href=""> Contato </a></li>
+                <li><a href="/adm/"> administrativo </a></li>
+                <li><a href=""> Reservas </a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="info"></section>
+    <section id="rows"></section>
+    <footer>
+            <button type="button"><a href="../../index.html">Voltar</a></button>
+            <button type="button" onclick="irParaSelecionarAssento()">Próximo passo!</button>
+    </footer>
+</body>
+    <script>carergarDados()</script>
+</html>

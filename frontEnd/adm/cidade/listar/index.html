@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/scripts/listarCidade.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <section class="cadastro">
+            <nav>
+                <a href="/index.html"><img src="/assets/images/logo.png"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href=""> Comprar Passagens </a></li>
+                        <li><a href=""> Viagens </a></li>
+                        <li><a href=""> Contato </a></li>
+                        <li><a href="/adm/"> administrativo </a></li>
+                        <li><a href=""> Reservas </a></li>
+                    </ul>
+                </div>
+            </nav>
+            <h1> Lista de Aeronave! </h1> 
+            <p class="aviso"> Sistema administrativo</p>
+            <div class="caixaListagem">
+                <table id="tblCidades" border="0" cellspacing="5" cellpadding="10">
+                <thead>
+                    <tr>
+                    <th width="10%" class="centerText">ID da Cidade</th>
+                    <th width="20%" class="centerText">Nome da Cidade</th>
+                    <th width="10%" class="centerText">ID do Estado</th>
+                    </tr>
+                </thead>
+                <tbody id="dados-cidade"></tbody>
+                </table>
+            </div>  
+        </section>
+    </section>
+</body>
+    <script>      exibirCidades()</script>
+</html>

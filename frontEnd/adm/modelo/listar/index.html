@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/scripts/listarModelo.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <section class="cadastro">
+            <nav>
+                <a href="/index.html"><img src="/assets/images/logo.png"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href=""> Comprar Passagens </a></li>
+                        <li><a href=""> Viagens </a></li>
+                        <li><a href=""> Contato </a></li>
+                        <li><a href="/adm/"> administrativo </a></li>
+                        <li><a href=""> Reservas </a></li>
+                    </ul>
+                </div>
+            </nav>
+            <h1> Lista de Modelos! </h1> 
+            <p class="aviso"> Sistema administrativo</p>
+            <div class="caixaListagem">
+                <table id="tblModelos" border="0" cellspacing="5" cellpadding="10">
+                <thead>
+                    <tr>
+                    <th width="10%" class="centerText">ID do Modelo</th>
+                    <th width="20%" class="leftText">Nome do Modelo</th>
+                    <th width="10%" class="leftText">ID da Fabricante</th>
+                    <th width="20%" class="centerText">Colunas (letras)</th>
+                    <th width="20%" class="centerText">Fileiras (números)</th>
+                    </tr>
+                </thead>
+                <tbody id="dados-modelo"></tbody>
+                </table>
+            </div>  
+        </section>
+    </section>
+</body>
+    <script>      exibirModelos()</script>
+</html>

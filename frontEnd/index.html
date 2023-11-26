@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="/scripts/clientModule/formVenda.js"></script>
+    <title>Treino em HTML</title>
+    
+</head>
+<foot>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="assets/images/logo.png"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href=""> Comprar Passagens </a></li>
+                <li><a href=""> Viagens </a></li>
+                <li><a href=""> Contato </a></li>
+                <li><a href="/adm/"> administrativo </a></li>
+                <li><a href=""> Reservas </a></li>
+            </ul>
+        </div>
+    </nav>
+
+<div class="text-box">
+    <h1> Voe Com A Maior Voe Com Aviãozão </h1>
+    <p>A melhor viagem, com a melhor qualidade e com o melhor preço é a gente !</p>
+    <a href="#Venda" class="primeiro-btn"> Voe Já ! </a>
+</div> 
+    
+</section>    
+
+<section class="comprar-passagem">
+    <h1> Escolha sua melhor viagem </h1> 
+
+
+    <div id="Venda" class="caixa-maior">
+        <form id="formVenda">
+            <h3>Vamos começar:</h3>
+            <h5>Escolha de onde quer partir:</h5>
+            <p>
+                <select name="Origem" id="origem" onclick="exibirDestino()">
+                    <option value="">selecione</option>
+                </select>
+                <input type="date" id="dateIda"  name="data" required>
+                <select name="Destino" id="destino">
+                </select>
+            </p>
+            <p>
+                <label for="volta">Procurar pela volta também</label>
+                <input type="checkbox" id="volta" onclick="isVolta()">
+            </p>
+            <p>
+                <input type="date" class="onCheck" id="dateVolta" name="data" required> 
+            </p>
+            <p>
+                <button type="button" onclick="pesquisarViagem()">Encontrar sua viagem!</button>
+            </p>
+        </form>
+    </div>  
+</section>
+</body>
+<script>
+    exibirForm()</script>
+</html>

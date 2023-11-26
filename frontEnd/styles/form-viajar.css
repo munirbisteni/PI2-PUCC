@@ -1,0 +1,34 @@
+
+.caixa-maior {
+    width: 25%;
+    height: 500px;
+    background: #eeeeee;
+    opacity: 0.8; 
+    margin: 0 auto; /* Isso centraliza horizontalmente a caixa */ /* Centraliza horizontalmente */
+    text-align: center; /* Isso centraliza o conteúdo dentro da caixa */
+    position: relative; /* Permite posicionamento absoluto dos filhos(o caixa maior é o pai dos forms) */
+    border-radius:10%; 
+}
+
+.form {
+    position: absolute; /* Posição absoluta */
+    top: 50%; /* centraliza verticalmente */
+    left: 50%; /* centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta o centro no centro */
+    text-align: left; /* Alinha o texto à esquerda dentro da caixa */
+}
+
+.form label,
+.form input,
+.form button {
+    display: block; /* Coloca os elementos em blocos separados */
+    margin: 5px 0; /* Adicione margem vertical para separar os elementos */
+    border: none;
+}
+
+.onCheck{
+    display: none;
+}
+.checked{
+    display: block;
+}
