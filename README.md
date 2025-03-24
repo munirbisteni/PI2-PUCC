@@ -8,4 +8,4 @@ Para o backEnd, abra a pasta correspondente no Visual Studio e, pelo terminal, e
 ## Descrição do Projeto
 Este projeto simula uma companhia aérea, desenvolvido em TypeScript, utilizando Express para a criação da API e CORS para o gerenciamento de políticas de compartilhamento de recursos entre diferentes origens.
 
-Autor: Munir Bisteni
+Autor: Munir Bisteni e Caio Adamo
